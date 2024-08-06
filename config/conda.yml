@@ -1,0 +1,8 @@
+name: azure_config
+dependencies:
+        - python=3.10
+        - pip
+        - pip:
+                - azure-ai-ml
+                - python-dotenv
+                - ipykernel
